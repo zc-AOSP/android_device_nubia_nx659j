@@ -455,3 +455,18 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libwfdaac_vendor
+
+# TODO: Drop this after doing checkelf on 22
+PRODUCT_PACKAGES += \
+    libprocessgroup.vendor \
+    libpng.vendor \
+    libprotobuf-cpp-full-vendorcompat \
+    libcurl.vendor:64 \
+    libjsoncpp.vendor \
+    android.hardware.secure_element@1.2.vendor \
+    libsqlite.vendor:64 \
+    libgui_vendor \
+    libstdc++_vendor \
+    libutilscallstack.vendor \
+    libnl \
+    libpng.vendor

@@ -1362,7 +1362,6 @@ vendor/etc/gpfspath_oem_config.xml
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libGPreqcancel.so
 vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libSecureUILib.so
 vendor/lib/libStDrvInt.so
 vendor/lib/libbase64.so
 vendor/lib/libcpion.so
@@ -1376,8 +1375,6 @@ vendor/lib/libops.so
 vendor/lib/libqcbor.so
 vendor/lib/libqisl.so
 vendor/lib/librpmb.so
-vendor/lib/libsecureui.so
-vendor/lib/libsecureui_svcsock.so
 vendor/lib/libsi.so
 vendor/lib/libspl.so
 vendor/lib/libssd.so
